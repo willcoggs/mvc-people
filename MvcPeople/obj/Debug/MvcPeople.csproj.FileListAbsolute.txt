@@ -50,6 +50,8 @@ c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\bin\Micr
 c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\bin\Microsoft.Owin.Security.Google.xml
 c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\bin\Microsoft.Owin.Security.Twitter.xml
 c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\obj\Debug\MvcPeople.csprojResolveAssemblyReference.cache
 c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\obj\Debug\MvcPeople.dll
 c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\obj\Debug\MvcPeople.pdb
+c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\obj\Debug\MvcPeople.csprojResolveAssemblyReference.cache
+c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\obj\Debug\MvcPeople.Migrations.Initial.resources
+c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\obj\Debug\MvcPeople.csproj.GenerateResource.Cache
