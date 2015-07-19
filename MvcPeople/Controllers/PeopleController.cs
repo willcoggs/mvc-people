@@ -6,27 +6,19 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using MvcPeople.DAL;
 using MvcPeople.Models;
 
 namespace MvcPeople.Controllers
 {
     public class PeopleController : Controller
     {
-        private PeopleDBContext db = new PeopleDBContext();
+        private appContext db = new appContext();
 
         // GET: People
-        public ActionResult Index(string searchString)
+        public ActionResult Index()
         {
-            var ppl = from p in db.People
-                      select p;
-
-            if (!String.IsNullOrEmpty(searchString))
-            {
-                ppl = ppl.Where(s => s.firstName.Contains(searchString));
-            }
-
-            return View(ppl);
-            //return View(db.People.ToList());
+            return View(db.People.ToList());
         }
 
         // GET: People/Details/5

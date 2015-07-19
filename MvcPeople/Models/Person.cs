@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 
 namespace MvcPeople.Models
@@ -13,9 +14,12 @@ namespace MvcPeople.Models
         [Range(1, 100)]
         public int age { get; set; }
 
+        public virtual ICollection<Interest> Interests { get; set; }
+        /*
         public class PeopleDBContext : DbContext
         {
             public DbSet<Person> People { get; set; }
-        }
+        }*/
     }
+
 }
