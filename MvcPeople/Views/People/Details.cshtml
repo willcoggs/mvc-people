@@ -33,6 +33,25 @@
         <dd>
             @Html.DisplayFor(model => model.age)
         </dd>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.Interests)
+        </dt>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>Activity</th>
+                </tr>
+                @foreach (var item in Model.Interests)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PossibleInterest)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </dd>
 
     </dl>
 </div>

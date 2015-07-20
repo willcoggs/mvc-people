@@ -52,3 +52,4 @@ c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\bin\Micr
 c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\obj\Debug\MvcPeople.dll
 c:\users\will\documents\visual studio 2013\Projects\MvcPeople\MvcPeople\obj\Debug\MvcPeople.pdb
+C:\Users\Will\Documents\Visual Studio 2013\Projects\MvcPeople\MvcPeople\obj\Debug\MvcPeople.csprojResolveAssemblyReference.cache

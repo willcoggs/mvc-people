@@ -10,6 +10,7 @@ namespace MvcPeople.DAL
     {
         protected override void Seed(appContext context)
         {
+            System.Diagnostics.Debug.WriteLine("ENTERED SEED");
             var ppl = new List<Person>
             {
                 new Person
@@ -33,6 +34,9 @@ namespace MvcPeople.DAL
                  new Interest{PersonID=1,PossibleInterest=PossibleInterest.Skiing},
                  new Interest{PersonID=1,PossibleInterest=PossibleInterest.Mountain_Biking}
              };
+            interests.ForEach(s => context.Interests.Add(s));
+            context.SaveChanges();
+
         }
     }
 }
